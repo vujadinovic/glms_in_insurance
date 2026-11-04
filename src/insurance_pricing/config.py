@@ -16,7 +16,7 @@ PROCESSED_FILE = PROCESSED_DIR / "policy_years.parquet"
 CSV_SEPARATOR = ";"
 DATE_FORMAT = "%d/%m/%Y"
 
-SEED = 42
+SEED = 11231
 SPLIT_FRACTIONS = {"train": 0.6, "val": 0.2, "test": 0.2}
 SPLIT_COL = "split"
 
